@@ -1,0 +1,32 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "Testin QA Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "Jerez Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-configuration": "^4.2.0",
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@cucumber/cucumber-expressions": "^16.0.0",
+    "@cucumber/gherkin": "^24.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/[filepath]/**/*.{js,ts}",
+      "cypress/e2e/[filepath].{js,ts}",
+      "cypress/support/step_definitions/**/*.{js,ts}"
+    ]
+  }
+}
