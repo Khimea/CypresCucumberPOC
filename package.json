@@ -12,7 +12,7 @@
     "cucumber"
   ],
   "author": "Jerez Leonardo",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "@badeball/cypress-configuration": "^4.2.0",
     "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
