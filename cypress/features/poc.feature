@@ -1,4 +1,4 @@
-Feature: Regresivas Ocultar Instrucciones
+Feature: Regresivas de API
 
     Scenario: Realizar una consulta a la API
         Given Deseo realizar un request METHOD con el body REQUESTBODY
