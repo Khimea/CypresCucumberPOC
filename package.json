@@ -1,7 +1,7 @@
 {
   "name": "cypress-poc",
   "version": "1.0.0",
-  "description": "Testin QA Backend",
+  "description": "Testing QA Backend",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
